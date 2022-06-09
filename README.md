@@ -51,5 +51,5 @@ Para consumir esta API, temos tais endpoints:
 
 * [GoLang](https://go.dev/) - Linguagem de Programação GO
 * [Gin](https://gin-gonic.com/) - Gin Web Framework
-* [Docker](https://www.docker.com/) - Utilizaçào de container
+* [Docker](https://www.docker.com/) - Utilização de container
 * [Postgres](https://www.docker.com/) - Postgres SQL na versão 14
