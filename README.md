@@ -9,6 +9,11 @@ Serviço será responsável pelo processo de cadastro, autenticação e autoriza
 - Docker
 ```
 
+Após a instalação, é necessário baixar as dependencias seguindo o código abaixo:
+```
+$ go mod tidy
+```
+
 ### 🔧 Start
 
 Após clonar o repositório, iniciaremos nosso banco de dados com o docker:
