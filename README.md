@@ -2,6 +2,30 @@
 
 Serviço será responsável pelo processo de cadastro, autenticação e autorização de usuários na plataforma, tendo como resposta um token JWT para ser tratado no front e no Gateway para possíveis controles de acesso.
 
+Para testes, esta API está disponível no Heroku: 
+
+- GET: https://user-service-go.herokuapp.com/user-api/usuarios/ (Lista Todos os usuários)
+
+- POST: https://user-service-go.herokuapp.com/user-api/novo/ (Cria Usuário)
+
+-- Body da requisição JSON:
+```
+{
+    "name":"Nome do Usuário",
+    "email":"email@email.com",
+    "password":"senha"
+}
+```
+- POST: https://user-service-go.herokuapp.com/user-api/login/ (Login)
+
+-- Body da requisição JSON:
+```
+{
+    "email":"email@email.com",
+    "password":"senha"
+}
+```
+
 ### 📋 Pré-requisitos
 
 ```
